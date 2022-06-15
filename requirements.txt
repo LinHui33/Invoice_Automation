@@ -4,3 +4,4 @@ werkzeug
 pandas
 docxtpl
 datetime
+openpyxl
