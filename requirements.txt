@@ -1,6 +1,6 @@
 gunicorn
 flask
-Pillow
+werkzeug
 pandas
 docxtpl
 datetime
