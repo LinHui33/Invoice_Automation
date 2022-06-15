@@ -17,7 +17,7 @@ import json
 
 app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
-def invoice():
+def index():
     if request.method == 'POST':
         file = request.files['file']
         filename = secure_filename(file.filename)
@@ -70,14 +70,11 @@ def download():
         
 
 
-# In[33]:
-
 
 if __name__ == "__main__":
     app.run()
 
 
-# In[ ]:
 
 
 
