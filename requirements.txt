@@ -4,4 +4,3 @@ werkzeug
 pandas
 docxtpl
 datetime
-json
