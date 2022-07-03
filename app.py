@@ -51,7 +51,7 @@ def index():
 
             context['content'] = parsed
             context['pTotal'] = df4.pAmt.sum()+df4.other.sum()
-            context['aTotal'] = df4.aAmt.sum()
+            context['aTotal'] = df4.aAmt.sum()+df4.other.sum()
             # render context into the document object
             doc.render(context)
             doc.save(f'static/{invoice_num}.docx')
